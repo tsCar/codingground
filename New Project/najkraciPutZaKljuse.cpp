@@ -14,7 +14,7 @@ int main()
            polje[i][j]=0;
        }
    }
-   polje[2][0]=1;
+   polje[2][0]=1; //Neka polja su blokirana
    polje[1][2]=1;
    cout<<"\n\n\n\n\n\n\n\n\n\n\n";
    cout<<"Minimalan broj poteza je "<<racunaj(polje,M,N)<<endl;
