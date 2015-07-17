@@ -1,3 +1,5 @@
+//Kljuse kreće sa gornjeg lijevog polja i treba stići na donje desno. 
+
 #include <iostream>
 
 using namespace std;
