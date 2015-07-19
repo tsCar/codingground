@@ -13,6 +13,7 @@ int main()
    int a[]={3,7,2,5,4};
    cout<<endl<<endl<<solution(a,5,sviRasporedi)<<endl<<endl;
   // for(std::vector<string>::iterator it=(*sviRasporedi).begin();it!=(*sviRasporedi).end();it++)cout<<(*sviRasporedi).at(it)<<endl;
+   cout<<"Svi mogući rasporedi su:\n";
    for(int i=0;i<(*sviRasporedi).size();i++)cout<<(*sviRasporedi).at(i)<<endl;
    return 0;
 }
