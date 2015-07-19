@@ -4,17 +4,16 @@
 using namespace std;
 
 
-int findShuffle(int*);
+int findShuffle(int,int,int,int);
 int** napraviPoljePermutacija(int,int *);
 void permutiraj(int**,int*,int, int,int&);
 void zamijeni(int&, int&);
 int main(){
-    int s[4]={5,3,-1,5} ;
-    cout<<endl<<findShuffle(s)<<endl<<endl;   
+    cout<<endl<<findShuffle(5,3,-1,5)<<endl<<endl;   
 }
 
-int findShuffle(int *s){
-    
+int findShuffle(int a,int b,int c,int d){
+    int s[4]={a,b,c,d} ;
     int **permutacije = napraviPoljePermutacija(4,s);
     int max=0,sad;
     for (int i=0;i<24;i++){
